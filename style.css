@@ -1,0 +1,56 @@
+*{
+    overflow-y:auto;
+    font-family:sefir;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    
+    padding:20px;
+    margin-top:30px
+}
+
+#mainHeader{
+    background-color:lightblue;
+    text-align:center;
+    padding:30px;
+    color: lime;
+    text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px darkblue;
+}
+
+#mainNavigator{
+    word-spacing:0.5em;
+    margin: 12px 0
+}
+.blogPost{
+    border:2px solid lightcoral;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.blogPost:hover{
+    background-color: lightcyan;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 10px 20px black;
+}
+
+.blogPost p{
+    font-size:16px;
+}
+
+.blogPost a{
+    text-decoration:none;
+}
+.blogPost img{
+    width:250px;
+    height:250px;
+}
+#mainFooter{
+    text-align:center;
+    border-top:1px dashed gray;
+    width:300px;   
+    margin: auto;   
+}
+
